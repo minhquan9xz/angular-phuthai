@@ -1,0 +1,146 @@
+.containerss {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.bread-crumb {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.bread-crumb ul {
+    background: #fff;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.home a {
+    color: #575454;
+    text-decoration: none;
+    background: transparent;
+}
+
+.breadcrumb li>a>span {
+    padding: 0;
+    color: #343434;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.breadcrumb li span i {
+    color: #f25112;
+}
+
+.breadcrumb li strong {
+    color: #f25112;
+    font-weight: 400;
+    padding: 0 5px;
+}
+
+.details-products {
+    width: 100%;
+    display: flex;
+}
+
+.large-image {
+    border: 5px solid #f0f7ff;
+    margin-bottom: 15px;
+}
+
+.large-image img {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-head {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    color: #343434;
+    text-decoration: none;
+}
+
+.special-price {
+    color: #f25112;
+    clear: both;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.product-summary {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.social-media label {
+    color: #898989;
+    font-size: 13px;
+    width: 100px;
+    min-width: 150px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.price-box {
+    margin-top: 15px;
+}
+
+.social-icon a i {
+    margin-top: 37px;
+    margin-right: 25px;
+    color: #575454;
+}
+
+.product-tab {
+    border-bottom: 2px solid #3e3e3e;
+    display: flex;
+    position: relative;
+}
+
+.product-tab::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: #f25112;
+    bottom: -4%;
+}
+
+.product-tab li {
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.product-tab li h3 {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.tabs-title-first h3 span {
+    color: #f25112;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.rte {
+    border: 1px #E8E8E8 solid;
+}

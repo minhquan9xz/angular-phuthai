@@ -1,0 +1,252 @@
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 0 none;
+    max-width: 100%;
+    height: auto;
+}
+
+.owl-state {
+    padding-top: 30px;
+}
+
+.logo {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.service {
+    background: #f25112;
+    color: white;
+    margin-top: 40px;
+}
+
+.owl-service {
+    height: 129px;
+}
+
+.icon-block {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 1px white solid;
+    position: relative;
+}
+
+.icon-block:hover :before {
+    position: absolute;
+    z-index: 1;
+    left: -8;
+    right: -10px;
+    top: -7px;
+    bottom: 0;
+    margin: auto;
+}
+
+.icon-block :hover:after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    /* left: -8px;
+    right: 0;
+    top: -7px;
+    bottom: 0; */
+    margin: auto;
+    border-radius: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.icon-block:hover {
+    background: #fff;
+    color: #f25112;
+}
+
+.icon-block i {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.block-top-content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text-block {
+    margin-left: 10px;
+}
+
+.text-block h4 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text-block p {
+    font-size: 12px;
+    line-height: 15px
+}
+
+.element-col {
+    margin-top: 3%;
+}
+
+.block-top-content::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 75px;
+    left: 100%;
+    background-color: white;
+}
+
+.footer {
+    background-color: #2a2a2a;
+}
+
+.footer-widget {
+    margin-top: 50px;
+}
+
+.footer-title h4 {
+    position: relative;
+    color: #f25112;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-title {
+    margin-bottom: 35px;
+    border-bottom: 2px solid #3e3e3e;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.footer-title h4::before {
+    content: "";
+    width: 20%;
+    border-top: 2px solid #f25112;
+    left: 0;
+    bottom: -16px;
+    position: absolute;
+}
+
+.footer-content-item {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer-content-title {
+    font-family: "Helvetica Neue";
+    color: #3498db;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-size: 10pt;
+    display: block;
+}
+
+.footer-content-info {
+    color: #ecf0f1;
+    font-size: 13px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 10pt;
+    font-family: "Helvetica Neue";
+}
+
+.footer-content-contact {
+    display: block;
+    color: #ecf0f1;
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: "Helvetica Neue";
+}
+
+.footer-content-contact-website-title {
+    color: #ecf0f1;
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: "Helvetica Neue";
+}
+
+.footer-content-contact-website-content {
+    font-family: "Helvetica Neue";
+    color: #3498db;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-size: 10pt;
+}
+
+.footer-content-hootline {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.contac-phone {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.contac-phone:hover a {
+    color: #f25112;
+}
+
+.contac-phone a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.footer-content-ul {
+    font-family: Arial, sans-serif;
+}
+
+.footer-content-ul li {
+    border-bottom: 1px solid #343434;
+    padding-bottom: 17px;
+    margin-bottom: 17px;
+    font-size: 12px;
+    display: inline-table;
+}
+
+.footer-content-ul li a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.footer-content-ul li:hover a {
+    color: #f25112;
+}
+
+.containerss {
+    width: 1230px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
