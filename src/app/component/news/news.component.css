@@ -158,8 +158,8 @@ li:not(:first-child).blog-image img {
     margin-top: 10px;
     position: relative;
     margin-bottom: 30px;
-
 }
+
 .module-title::before {
     content: "";
     position: absolute;
@@ -204,8 +204,8 @@ li:not(:first-child).blog-image img {
     display: inline-block;
     line-height: 44px;
     background: #f25112;
-
 }
+
 .module-title h2::before {
     content: "";
     width: 0;
@@ -219,4 +219,13 @@ li:not(:first-child).blog-image img {
 
 .module-title-text {
     text-transform: uppercase;
+}
+
+@media(max-width: 1024px) {
+    .containerss {
+        width: 100%;
+    }
+    .owl-stage {
+        width: 100%;
+    }
 }

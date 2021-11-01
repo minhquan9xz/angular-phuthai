@@ -250,3 +250,15 @@ img {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1024px) {
+    .containerss {
+        width: 100%;
+    }
+    .owl-stage {
+        width: 100%;
+    }
+    .site-footer {
+        width: 100%;
+    }
+}
